@@ -1,7 +1,7 @@
 # Gerenciador de Tarefas
 
 **Projeto Final - Programação em Python**  
-**Equipe:** Matheus Bertorini + Matheus
+**Equipe:** Matheus Bertorini + Matheus Alves
 **Data:** Novembro 2025
 
 ---
