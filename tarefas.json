@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": 1,
+    "titulo": "Estudar Python",
+    "descricao": "Revisar funções, listas e dicionários",
+    "prioridade": "urgente",
+    "concluida": false,
+    "data_criacao": "08-11-2025"
+  },
+  {
+    "id": 2,
+    "titulo": "Fazer exercícios",
+    "descricao": "Resolver 5 questões de try/except",
+    "prioridade": "alta",
+    "concluida": false,
+    "data_criacao": "08-11-2025"
+  }
+]
