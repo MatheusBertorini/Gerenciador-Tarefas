@@ -5,6 +5,25 @@ import os
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 
+"""
+Gerenciador de Tarefas - Projeto Final
+
+Descrição:
+    Sistema de gerenciamento de tarefas com persistência em JSON.
+    Suporta criação, edição, conclusão, arquivamento e relatórios.
+
+Autores:
+    Matheus Bertorini
+    Matheus Alves
+
+Funcionalidades:
+    - Criação de tarefas com prioridade (urgente, alta, média, baixa)
+    - Persistência em tarefas.json e tarefas_arquivadas.json
+    - Validação de entrada com try/except
+    - Relatórios completos
+    - Menu interativo com 10 opções
+"""
+
 # === 11. VARIÁVEIS GLOBAIS (com controle de ID único) ===
 tarefas: List[Dict] = []
 proximo_id: int = 1
@@ -367,4 +386,5 @@ def menu() -> None:
 if __name__ == "__main__":
     inicializar_arquivos()
     carregar_tarefas()
+
     menu()
