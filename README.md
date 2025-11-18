@@ -1,5 +1,4 @@
-# Gerenciador de Tarefas
-
+# TaskFlow
 **Projeto Final - Programação em Python**  
 **Equipe:** Matheus Bertorini + Matheus Alves
 **Data:** Novembro 2025
