@@ -146,6 +146,7 @@ def criar_tarefa() -> None:
     titulo = obter_texto_obrigatorio("Título")
     descricao = obter_texto_opcional("Descrição")
     prioridade = obter_opcoes("Prioridade", ["Urgente", "Alta", "Média", "Baixa"])
+    origem = input("Origem da tarefa (E-mail/Telefone/Chamado do Sistema): ").strip()
     
 
     nova_tarefa = {
@@ -154,6 +155,7 @@ def criar_tarefa() -> None:
         "descricao": descricao,
         "prioridade": prioridade,
         "status": "Pendente",
+        "origem": origem,
         "data_criacao": datetime.now().isoformat(),
         "data_conclusao": None
     }
@@ -387,4 +389,5 @@ if __name__ == "__main__":
     carregar_tarefas()
 
     menu()
+
 
